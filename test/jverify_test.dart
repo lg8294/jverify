@@ -1,9 +1,10 @@
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:jverify/jverify.dart';
 
 void main() {
   const MethodChannel channel = MethodChannel('jverify');
+
+  TestWidgetsFlutterBinding.ensureInitialized();
 
   setUp(() {
     channel.setMockMethodCallHandler((MethodCall methodCall) async {
@@ -16,5 +17,6 @@ void main() {
   });
 
   test('getPlatformVersion', () async {
+    // expect(await Jverify.platformVersion, '42');
   });
 }
