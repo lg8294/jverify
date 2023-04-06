@@ -515,8 +515,9 @@ class _MyAppState extends State<MyApp> {
 
     jverify.setDebugMode(true); // 打开调试模式
     jverify.setup(
-        appKey: "a0e6ace8d5b3e0247e3f58db", //"你自己应用的 AppKey",
-        channel: "devloper-default"); // 初始化sdk,  appKey 和 channel 只对ios设置有效
+      appKey: "a0e6ace8d5b3e0247e3f58db", //"你自己应用的 AppKey",
+      channel: "devloper-default",
+    ); // 初始化sdk,  appKey 和 channel 只对ios设置有效
     // If the widget was removed from the tree while the asynchronous platform
     // message was in flight, we want to discard the reply rather than calling
     // setState to update our non-existent appearance.
