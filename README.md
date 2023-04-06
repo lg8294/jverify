@@ -11,15 +11,8 @@
 dependencies:
   jverify:
     git:
-      url: git://github.com/jpush/jverify-flutter-plugin.git
-      ref: master
-```
-
-+ pub 集成
-
-```
-dependencies:
-  jverify: 2.2.9
+      url: https://github.com/lg8294/jverify
+      ref: main
 ```
 
 ### 配置
@@ -39,7 +32,7 @@ android: {
 	abiFilters 'armeabi', 'armeabi-v7a', 'x86', 'x86_64', 'mips', 'mips64', 'arm64-v8a',        
     }
 
-    manifestPlaceholders = [
+    manifestPlaceholders += [
         JPUSH_PKGNAME : applicationId,
         JPUSH_APPKEY : "appkey", // NOTE: JPush 上注册的包名对应的 Appkey.
         JPUSH_CHANNEL : "developer-default", //暂时填写默认值即可.

@@ -1,7 +1,7 @@
 name: jverify
-description: JIGUANG Official Jverifycation SDK flutter plugin project.
+description: JIGUANG Unofficial Jverifycation SDK flutter plugin project.
 version: 2.2.9
-homepage: https://www.jiguang.cn
+homepage: https://github.com/lg8294/jverify
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
