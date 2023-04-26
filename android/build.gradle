@@ -36,6 +36,6 @@ android {
 }
 
 dependencies {
-    implementation 'cn.jiguang.sdk:jcore:4.1.0'
+    implementation 'cn.jiguang.sdk:jcore:4.2.0'
     implementation 'cn.jiguang.sdk:jverification:2.9.7'
 }
